@@ -5,6 +5,31 @@ function clicou (){
     //alert("Obrigado por clicar");
 }
 
+function redirecionar() {
+    window.open("https://pt.aliexpress.com/"); //abrir na outra página
+    //window.location.href = "https://pt.aliexpress.com/"; - Abrir na propria página.
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado por passar mouse";
+   // document.getElementById("mousemov").innerHTML = "Obrigado por passar mouse";
+    //alert("Trocar texto")
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+  //  document.getElementById("mousemov").innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+
+    alert("Página carregada");
+}
+
+function funcaochange(elemento){
+    console.log(elemento.value)
+}
+
 /* Estrutura de repetição
 
 function soma (n1, n2,) {
